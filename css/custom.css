@@ -1,0 +1,9 @@
+.backvideo {
+  position: absolute;
+  color: #fff;
+  width: 100%
+}
+
+.video {
+	position: absolute;
+}
