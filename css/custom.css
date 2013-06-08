@@ -7,3 +7,51 @@
 .video {
 	position: absolute;
 }
+
+.panel1 {
+position: relative;
+  border: 1px solid;
+border-color: #d6d7da #d5d8dd #c7c8ca;
+text-align: center;
+ background-image:url('video.png');
+
+}
+
+.panel1 p {
+	z-index: 2
+}
+
+
+
+.panel2 {
+position: relative;
+  padding: 250px 0;
+  border: 1px solid;
+border-color: #d6d7da #d5d8dd #c7c8ca;
+text-align: center;
+}
+
+.panel3 {
+position: relative;
+  padding: 300px 0;
+  border: 1px solid;
+border-color: #d6d7da #d5d8dd #c7c8ca;
+text-align: center;
+}
+
+.panel4 {
+position: relative;
+  padding: 300px 0;
+  border: 1px solid;
+border-color: #d6d7da #d5d8dd #c7c8ca;
+text-align: center;
+}
+
+.panel5 {
+position: relative;
+  padding: 75px 0;
+  border: 1px solid;
+border-color: #d6d7da #d5d8dd #c7c8ca;
+text-align: center;
+}
+
