@@ -1,0 +1,12 @@
+v1.2 - 09/05/2013
+- Added Contact Form
+
+v1.1.1 - 26/04/2013
+- Fixed IE9 page element didn't show
+
+v1.1 - 09/04/2013
+- Fixed navbar for phone and table view
+- Fixed blockquote background
+
+v1.0 - 25/3/2013
+- Initial release
