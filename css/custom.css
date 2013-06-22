@@ -1,6 +1,14 @@
 
 body {
-	background-color: #E3E3E3;
+	background-color: #FCFCFC;
+}
+
+h1 {
+font-size: 80px;
+font-weight: 220;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
 }
 
 .toppanel {
@@ -13,18 +21,12 @@ body {
   background-image:url('/Users/mwarshafsky/code/website/img/video.png');
   padding: 200px;
 
-  h1 {
-    font-size: 60px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: #fff;
 
   }
   p {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.25;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.50;
     margin-bottom: 30px;
 
   }
