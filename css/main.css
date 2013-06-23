@@ -271,7 +271,7 @@ section.slideshow { margin-bottom: 30px;}
 
 .single-image-caption-iphone h1 , .single-image-caption h1 { font-family: 'Abril Fatface', cursive; }
 
-.flexslider.macbookpro { position: absolute; background-image:url('../img/macbookpro.png'); background-repeat: no-repeat; background-size: 620px 391px; left: 50%; width:472px; height:295px; padding: 36px 74px 60px 74px; margin: -340px auto 0 -310px; }
+.flexslider.macbookpro { position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 36px 74px 60px 74px; margin: -340px auto 0 -310px; }
 .flexslider.ipad { position: absolute; background-image:url('../img/ipad.png'); background-repeat: no-repeat; background-size: 420px 483px; left: 50%; width:332px; height:426px; padding: 47px 44px 0px 43px; margin: -344px auto 0 -210px; }
 
 .flexslider.macbookpro .flex-control-paging, .flexslider.ipad .flex-control-paging  { bottom: 33px;}
