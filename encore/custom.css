@@ -1,9 +1,10 @@
 body {
 background-color: rgb(0, 0, 0);
-font-family:Hero, Helvetica, Arial, Verdana , sans-serif;
+font-family:Hero Light, Helvetica, Arial, Verdana , sans-serif;
 font-size-adjust:0.52;
  font-weight:normal; 
  font-style:normal;
+ color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +22,7 @@ font-size: 60px;
 font-weight:normal; 
 font-style:normal;
 }
+
 
 .fullslideshow-after, .single-image-after {
 border-top: none;
@@ -62,11 +64,54 @@ background-image: -webkit-linear-gradient(top, #1DCCFF, #1DCCFF);
 	font-size-adjust:0.52;
  	font-weight:normal; 
  	font-style:normal;
+ 	font-size: 20px;
+ 	line-height: 25px;
 }
 
 .iphone {
 margin: auto 0;
 }
+
+/* Footer */
+footer { background-color: #ffffff; text-align: center; margin-top: 30px; border-top: 1px solid #e6e6e6; padding-bottom: 0px }
+
+footer #top { font-family: "entypo"; background-color: #e6e6e6; width: 25px; height: 25px; color: #b0b0b0; display: inline-block; position: relative; bottom: 13px; border-radius: 25px; }
+footer #top:hover { text-decoration: none; }
+
+footer .social { margin-top: 20px; }
+footer .social li { display: inline-block; vertical-align:text-top;}
+footer .social .twitter { width: 85px; margin-left: 10px;}
+
+footer .footer_links { margin-top: 20px; }
+footer .footer_links li { font-family: 'Montserrat', sans-serif; display: inline-block; font-size: 16px; }
+footer .footer_links a { color: #737373; position: relative; text-decoration: none}
+
+footer span.underline { height: 1px; background-color: #737373; display: block; width: 0%; margin-left: 50%; position: absolute; }
+
+footer .copyright { font-size: 13px; color: #a3a3a3; line-height: 18px; margin-top: 30px; }
+
+
+
+footer #top {
+font-family: "entypo";
+background-color: #03B0E3;
+width: 25px;
+height: 25px;
+color: #fff;
+display: inline-block;
+position: relative;
+bottom: 13px;
+border-radius: 25px;
+
+}
+
+.next36 {
+float: left;
+padding-left: 40px;
+}
+
+
+
 
 span.icon {
 width: 40px;
@@ -84,6 +129,7 @@ margin: 44px 0 0 -20px;
 transition: all 250ms ease-out;
 }
 
+/* the slider in the iphone stuff */
 
 .section.slideshow { margin-bottom: 30px;}
 
@@ -96,14 +142,13 @@ transition: all 250ms ease-out;
 .single-image-caption-iphone { margin-top: -300px; }
 .single-image-caption-iphone h1, .single-image-caption-iphone h4 {  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); }
 
-.single-image-caption-iphone h1 , .single-image-caption h1 { font-family: 'Abril Fatface', cursive; }
 
 .flexslider.iphonetop{ position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 90px 74px 70px 33px; margin: -320px auto 0 100px; }
 
 .flexslider.iphonetop .flex-control-paging { bottom: 33px;}
-.flexslider.iphonetop .flex-control-paging li {display:inline-block; width:50px; height:13px; margin:0 5px; line-height:13px; position: relative; }
+.flexslider.iphonetop .flex-control-paging li {display:inline-block; width:50px; height:13px; margin:0 5px; opacity: 0; line-height:13px; position: relative; }
 .flexslider.iphonetop .flex-control-paging li a  {display:block; text-indent:-9999px; background:#fff; width:50px; height:5px; border-radius:0px; line-height:13px;margin:0px auto;cursor:pointer; position: absolute; left:0px;top:0px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4) inset; display: inline-block; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); top: 4px; opacity: 0.5; transition: all 150ms ease-in-out;}
-.flexslider.iphonetop .flex-control-paging li a.flex-active {width:50px; height:13px; top: 0; opacity: 1; transition: all 100ms ease-out;}
+.flexslider.iphonetop .flex-control-paging li a.flex-active {width:50px; height:13px; top: 0; opacity: 0; transition: all 100ms ease-out;}
 
 .page .single-image-caption { margin-top: -95px; }
 .about-us .single-image-caption { margin-top: -210px; }
