@@ -14,6 +14,13 @@ font-size-adjust:0.52;
  font-style:normal;
 }
 
+.single-image h4 {
+	font-family:Hero Light, Helvetica, Arial, Verdana , sans-serif;
+font-size-adjust:0.52;
+ font-weight:normal; 
+ font-style:normal;
+}
+
 
 .single-image-caption-iphone h1, .single-image-caption h1 {
 font-family:Hero, Helvetica, Arial, Verdana , sans-serif;
