@@ -1,3 +1,9 @@
+.topphoto {
+	position: relative;
+	bottom: 70px;
+	z-index: -1;
+}
+
 body {
 background-color: rgb(0, 0, 0);
 font-family:Hero Light, Helvetica, Arial, Verdana , sans-serif;
@@ -19,6 +25,7 @@ font-size-adjust:0.52;
 font-size-adjust:0.52;
  font-weight:normal; 
  font-style:normal;
+ line-height: 5px;
 }
 
 
@@ -51,8 +58,9 @@ padding-top: 50px;
 	font-size-adjust:0.52;
  	font-weight:normal; 
  	font-style:normal;
-	color: #05FBB6
+	color: #03B0E3
 }
+
 
 .btn-primary {
 color: #ffffff;
@@ -95,7 +103,12 @@ margin: auto 0;
 }
 
 /* Footer */
-footer { background-color: #ffffff; text-align: center; margin-top: 0px; border-top: 1px solid #e6e6e6; padding-bottom: 0px }
+footer { 
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 0px;
+	border-top: 1px solid #e6e6e6; 
+	padding: 36px }
 
 footer #top { font-family: "entypo"; background-color: #e6e6e6; width: 25px; height: 25px; color: #b0b0b0; display: inline-block; position: relative; bottom: 13px; border-radius: 25px; }
 footer #top:hover { text-decoration: none; }
@@ -122,9 +135,13 @@ height: 25px;
 color: #fff;
 display: inline-block;
 position: relative;
-bottom: 13px;
+bottom: 50px;
 border-radius: 25px;
 
+}
+
+.fb-like {
+	width: 450px;
 }
 
 .next36 {
@@ -132,6 +149,18 @@ float: left;
 padding-left: 40px;
 }
 
+.explainer-text {
+font-family:Hero Light, Helvetica, Arial, Verdana , sans-serif;
+	font-size-adjust:0.52;
+	font-size:18px;
+ 	font-weight:normal; 
+ 	font-style:normal;
+	color: #03B0E3
+}
+
+.padding-top-70 {
+padding-top: 20px;
+}
 
 
 
