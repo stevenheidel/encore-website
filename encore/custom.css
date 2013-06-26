@@ -26,15 +26,17 @@ font-size-adjust:0.52;
  font-weight:normal; 
  font-style:normal;
  line-height: 5px;
+ font-size: 22px;
 }
 
 
 .single-image-caption-iphone h1, .single-image-caption h1 {
 font-family:Hero, Helvetica, Arial, Verdana , sans-serif;
 font-size-adjust:0.52;
-font-size: 60px;
+font-size: 80px;
 font-weight:normal; 
 font-style:normal;
+margin: 0 auto;
 }
 
 
@@ -45,7 +47,9 @@ padding: 32px 0;
 }
 
 .box1 {
-margin-bottom: 30px;
+margin-bottom: 0px;
+position: relative;
+top: 150px;
 }
 
 .single-image-caption {
@@ -150,19 +154,26 @@ padding-left: 40px;
 }
 
 .explainer-text {
+	margin: 0 auto;
+	width: 400px;
 font-family:Hero Light, Helvetica, Arial, Verdana , sans-serif;
 	font-size-adjust:0.52;
 	font-size:18px;
  	font-weight:normal; 
  	font-style:normal;
 	color: #03B0E3
+
 }
 
 .padding-top-70 {
-padding-top: 20px;
+padding-top: 0px;
+position: relative;
+bottom: 70px;
 }
 
-
+.padding-left-60 {
+padding-left: 90px;
+}
 
 span.icon {
 width: 40px;
@@ -194,7 +205,7 @@ transition: all 250ms ease-out;
 .single-image-caption-iphone h1, .single-image-caption-iphone h4 {  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); }
 
 
-.flexslider.iphonetop{ position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 90px 74px 70px 33px; margin: -435px auto 0 100px; }
+.flexslider.iphonetop{ position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 90px 74px 70px 33px; margin: -350px auto 0 100px; }
 
 .flexslider.iphonetop .flex-control-paging { bottom: 33px;}
 .flexslider.iphonetop .flex-control-paging li {display:inline-block; width:50px; height:13px; margin:0 5px; opacity: 0; line-height:13px; position: relative; }
@@ -208,13 +219,25 @@ transition: all 250ms ease-out;
 @media (min-width: 1200px) {
 	section.pricing .pricing-left, section.pricing .pricing-right { padding: 30px 14px; }
 
-	.flexslider.iphonetop { position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:294px; height:323px; padding:  117px 74px 73px 33px; margin: -409px auto 0 100px; }
+	.flexslider.iphonetop { position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:294px; height:323px; padding:  117px 74px 73px 33px; margin: -438px auto 0 100px; }
 	.single-image-iphone { margin-top: -480px; }
 	.single-image-caption-iphone { margin-top: -240px; }
 	.page .single-image-caption { margin-top: -105px;}
 	.about-us .single-image-caption { margin-top: -230px; }
 }
 
+@media (max-width: 767px) {
+	.flexslider.iphonetop { position: absolute; background-image:url('../img/'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:0px; height:0px; padding:  117px 74px 73px 33px; margin: -275px auto 0 100px; }
+	.single-image-iphone { margin-top: -480px; }
+	.single-image-caption-iphone { margin-top: -240px; }
+
+	.flexslider.iphonetop .flex-control-paging { bottom: 33px;}
+	.flexslider.iphonetop .flex-control-paging li {display:inline-block; width:0px; height:0px; margin:0 5px; opacity: 0; line-height:13px; position: relative; }
+	.flexslider.iphonetop .flex-control-paging li a  {display:block; text-indent:-9999px; background:#fff; width:0px; height:5px; border-radius:0px; line-height:13px;margin:0px auto;cursor:pointer; position: absolute; left:0px;top:0px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4) inset; display: inline-block; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); top: 4px; opacity: 0.5; transition: all 150ms ease-in-out;}
+	.flexslider.iphonetop .flex-control-paging li a.flex-active {width:0px; height:0px; top: 0; opacity: 0; transition: all 100ms ease-out;}
+
+
+}
 
 span.underline {display: none;}
 
@@ -240,6 +263,48 @@ span.underline {display: none;}
 	section.pricing .price { font-size: 50px; }
 	section.pricing li { font-size: 14px; }
 }
+
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
