@@ -205,7 +205,7 @@ transition: all 250ms ease-out;
 .single-image-caption-iphone h1, .single-image-caption-iphone h4 {  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); }
 
 
-.flexslider.iphonetop{ position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 90px 74px 70px 33px; margin: -350px auto 0 100px; }
+.flexslider.iphonetop{ position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 294px 350px; left: 50%; width:235px; height:258px; padding: 90px 114px 5px 32px; margin: -350px auto 0 100px; }
 
 .flexslider.iphonetop .flex-control-paging { bottom: 33px;}
 .flexslider.iphonetop .flex-control-paging li {display:inline-block; width:50px; height:13px; margin:0 5px; opacity: 0; line-height:13px; position: relative; }
@@ -219,7 +219,7 @@ transition: all 250ms ease-out;
 @media (min-width: 1200px) {
 	section.pricing .pricing-left, section.pricing .pricing-right { padding: 30px 14px; }
 
-	.flexslider.iphonetop { position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:294px; height:323px; padding:  117px 74px 73px 33px; margin: -438px auto 0 100px; }
+	.flexslider.iphonetop { position: absolute; background-image:url('../img/iphonetop.png'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:294px; height:323px; padding:  114px 114px 5px 39.5px; margin: -438px auto 0 100px; }
 	.single-image-iphone { margin-top: -480px; }
 	.single-image-caption-iphone { margin-top: -240px; }
 	.page .single-image-caption { margin-top: -105px;}
@@ -227,7 +227,7 @@ transition: all 250ms ease-out;
 }
 
 @media (max-width: 767px) {
-	.flexslider.iphonetop { position: absolute; background-image:url('../img/'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:0px; height:0px; padding:  117px 74px 73px 33px; margin: -275px auto 0 100px; }
+	.flexslider.iphonetop { position: absolute; background-image:url('../img/'); background-repeat: no-repeat; background-size: 368px 438px; left: 50%; width:0px; height:0px; padding:  114px 114px 5px 39.5px; margin: -275px auto 0 100px; }
 	.single-image-iphone { margin-top: -480px; }
 	.single-image-caption-iphone { margin-top: -240px; }
 
