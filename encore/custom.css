@@ -18,6 +18,7 @@ h1, h2, h3, h4, p {
 h5, h6 {
 	font-family:'Hero', Helvetica, Arial, Verdana , sans-serif;
 	color: black;
+	font-size: 15px;
 }
 
 #encore-header h1 {
@@ -53,7 +54,23 @@ h5, h6 {
 
 footer {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 0px;
+	background-color: #E1E1E1;
+}
+
+.teaminfo {
+	float: right;
+	width: 250px;
+	padding-right: 30px;
+}
+
+.next36 {
+	float: left;
+	width: 150px;
+}
+
+.socialbuttons {
+	float: center;
 }
 
 @media (max-width: 767px) {
