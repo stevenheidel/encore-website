@@ -58,6 +58,7 @@ jQuery(document).ready(function() {
 
   var newsletter_form = jQuery('.newsletter-form');
 
+/*
   newsletter_form.submit(function() {
     var form_data = jQuery(this).serialize();
     var email = jQuery('.newsletter-form input').prop('value');
@@ -66,12 +67,15 @@ jQuery(document).ready(function() {
         newsletter_form.css({'background' : 'none'});
         jQuery('.newsletter-fields, .newsletter-validate, .newsletter-form fieldset').fadeOut('fast');
         jQuery('.newsletter-info').fadeIn('fast');
+        console.log("here");
       });
+      console.log("there");
     } else {
       jQuery('.newsletter-validate').fadeIn('fast');
     }
+    console.log("everywhere");
     return false;
-  });
+  });*/
 
 });
 

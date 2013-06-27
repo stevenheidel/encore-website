@@ -48,7 +48,7 @@
                 <div class="row-fluid load-animate">
                     <div class="span6 offset3 align-center">
                         <h3 class="explainer-text">Whether you are a hard core concert-goer or a casual music lover, Encore is for you.</h3>
-                        <p><button class="btn btn-primary" type="button">Request Invite</button></p>
+                        <p><button class="btn btn-primary" type="button" href="#encore-popup" data-toggle="modal">Request Invite</button></p>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@
                     <div class="span6 padding-top-100 padding-left-60 padding-right-20">
                         <h1>More than just concert listings. </h1>
                         <p>ENCORE ENCORE FUCK YEAH!</p>
-                        <button class="btn btn-primary" type="button">Request Invite</button>
+                        <button class="btn btn-primary" type="button" href="#encore-popup" data-toggle="modal">Request Invite</button>
                     </div>
 
                     <div class="span6 padding-top-100 align-center">
@@ -90,6 +90,24 @@
             <h6>Want to chat? Email us <a href="mailto:brian@encoretheapp.com?subject=Mail from Our Site"> here. </a> </h6>
         </section>
     </footer>
+
+    <div class="modal fade" id="encore-popup">
+        <section class="newsletter">
+            <br>
+            <h3 style="color:black;">Sign up for the Encore beta</h5>
+            <form method="post" action="./formtools/process.php" method="post" class="newsletter-form">
+                <input type="hidden" name="form_tools_form_id" value="1" />
+                <div class="row-fluid">
+                    <fieldset>
+                        <input class="span6" type="email" placeholder="Your e-mail here" name="email" required><br>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </fieldset>
+                </div>           
+                <div class="newsletter-info">Thanks for subscribing</div>
+                <div class="newsletter-validate">Please enter a valid e-mail</div>
+            </form>
+        </section>
+    </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
