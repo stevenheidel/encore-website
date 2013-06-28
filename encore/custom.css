@@ -21,6 +21,10 @@ h5, h6 {
 	font-size: 15px;
 }
 
+.contact h6 {
+	font-size: 12px
+}
+
 #encore-header h1 {
 	font-size: 80px;
 }
