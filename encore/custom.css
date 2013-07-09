@@ -14,6 +14,11 @@ h1 {
 	font-family: 'Null Regular', 'Arial Black', Arial, Helvetica, Verdana, sans-serif;
 	text-transform: none;
 }
+
+#footer h1 {
+	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+}
+
 h2, h3, h4, p {
 	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
 	color: white;
