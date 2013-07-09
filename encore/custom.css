@@ -10,13 +10,16 @@ body {
 	background-size: 100% auto;
 }
 
-h1, h2, h3, h4, p {
-	font-family:'Hero', Helvetica, Arial, Verdana , sans-serif;
+h1 {
+	font-family: 'Null Regular', 'Arial Black', Arial, Helvetica, Verdana, sans-serif;
+}
+h2, h3, h4, p {
+	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
 	color: white;
 }
 
 h5, h6 {
-	font-family:'Hero', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
 	color: black;
 	font-size: 15px;
 }
