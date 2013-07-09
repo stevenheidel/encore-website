@@ -13,6 +13,9 @@ body {
 h1 {
 	font-family: 'Null Regular', 'Arial Black', Arial, Helvetica, Verdana, sans-serif;
 	text-transform: none;
+	font-size-adjust:0.56;
+	font-weight: normal;
+	font-style: normal;
 }
 
 #footer h1 {
