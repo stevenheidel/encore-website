@@ -94,3 +94,7 @@ footer {
 	padding: 90px 32px 1px 32px; 
 	margin: 0 auto;
 }
+
+.wf-loading body {
+    visibility: hidden;
+}
