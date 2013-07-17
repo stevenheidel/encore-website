@@ -56,8 +56,26 @@ body {
 	position: relative;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	color: black;
+	font-size: 15px;
 }
 
+.middlearea {
+	position: relative;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+.middleareatext h1 {
+	position: relative;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	color: #67B2D0;
+	font-size: 25px;
+}
 
 .iphone {
 	bottom: -30px;
