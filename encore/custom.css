@@ -47,7 +47,6 @@ body {
 	font-size: 20px;
 	line-height: 25px;
 	opacity: 0.5;
-
 }
 
 
@@ -186,6 +185,82 @@ footer {
 		margin-top: 30px;
 	}
 }
+
+@media (max-width: 1100px) {
+	
+	#download1 {
+		position: absolute;
+		z-index: 3;
+		padding-left: 130px;
+		padding-top: 400px;
+	}
+
+
+	.explainer{
+		padding-left: 100px;
+		padding-top: 310px;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	
+	#download1 {
+		position: absolute;
+		z-index: 3;
+		padding-left: 130px;
+		padding-top: 350px;
+	}
+
+
+	.explainer{
+		padding-left: 100px;
+		padding-top: 260px;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	
+	#download1 {
+
+		padding-left: 130px;
+		padding-top: 350px;
+	}
+
+
+	.explainer{
+
+		padding-left: 100px;
+		padding-top: 260px;
+	
+	}
+
+}
+
+
+@media (max-width: 900px) {
+	
+	#download1 {
+
+		padding-left: 130px;
+		padding-top: 300px;
+	}
+
+
+	.explainer{
+
+		padding-left: 100px;
+		padding-top: 200px;
+	
+	}
+
+}
+
+
+
+
+
 
 .flexslider.iphonetop { 
 	background-image:url('../img/iphonetop.png'); 
