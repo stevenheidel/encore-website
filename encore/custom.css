@@ -34,6 +34,11 @@ body {
 	padding-top: 460px;
 }
 
+.download2 {
+	position: relative;
+	padding-bottom: 30px;
+}
+
 
 .explainer{
 	position: absolute;
@@ -79,7 +84,7 @@ body {
 .iphone {
 	bottom: -30px;
 	left:50%;
-	margin-left:-158px;
+	margin-left:-133px;
 	position: absolute;
 }
 
@@ -171,7 +176,7 @@ h5, h6 {
 
 footer {
 	margin-top: 0;
-	padding-top: 70px;
+	padding-top: 30px;
 	background-color: #ffffff;
 }
 
