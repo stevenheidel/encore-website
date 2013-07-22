@@ -98,21 +98,6 @@ body {
 }
 
 
-/**
-
-display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-#video_pattern { 
-	position: absolute;
-	background-image: url('../img/gradient.png'); 
-	width: 100%; 
-	height: auto; 
-	z-index: 1; 
-}
-**/
-
 .fullvideo {
 	position: fixed;
 	top: 80%
@@ -203,7 +188,6 @@ footer {
 		padding-bottom: 0px;
 		margin-bottom: -10px;
 	}
-
 	#encore-header {
 		margin-top: 30px;
 	}
@@ -217,8 +201,6 @@ footer {
 		padding-left: 130px;
 		padding-top: 400px;
 	}
-
-
 	.explainer{
 		padding-left: 100px;
 		padding-top: 310px;
@@ -234,53 +216,36 @@ footer {
 		padding-left: 130px;
 		padding-top: 350px;
 	}
-
-
 	.explainer{
 		padding-left: 100px;
 		padding-top: 260px;
 	}
-
 }
 
 @media (max-width: 1000px) {
-	
 	#download1 {
-
 		padding-left: 130px;
 		padding-top: 350px;
 	}
 
-
 	.explainer{
-
 		padding-left: 100px;
 		padding-top: 260px;
-	
 	}
-
 }
 
 
 @media (max-width: 900px) {
-	
 	#download1 {
-
 		padding-left: 130px;
 		padding-top: 300px;
 	}
 
-
 	.explainer{
-
 		padding-left: 100px;
 		padding-top: 200px;
-	
 	}
-
 }
-
-
 
 
 .flexslider.iphonetop { 
