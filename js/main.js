@@ -1,3 +1,26 @@
+
+(function($) {
+  $(document).ready(function() {  
+    $('.main_content ul li').click(function() { 
+      if(!$(this).hasClass('active')) {
+      var x = $(this).parent().find('.active'); 
+      x.removeClass('active'); 
+      if(this != x[0]) { 
+	$(this).addClass('active'); 
+      }
+      }
+    });
+  });  
+})(jQuery);
+
+
+
+
+
+
+
+
+
 jQuery(document).ready(function() {
   "use strict";
   
@@ -142,3 +165,4 @@ function validateEmail(a){
   var b=/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return b.test(a);
 }
+
