@@ -6,40 +6,86 @@
 	box-shadow: 1px 7px 10px #444;
 }
 
+.iphone-wrapper {
+  background: url('../img/sasquatch.jpg') center no-repeat;
+  background-position: top;
+}
 .iphone {
-	position: absolute;
-	top: 1600px;
-	right: 1000px;
+  text-align:center;
+  margin:0 auto;   
+  width:880px;
+  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.main_content { position: relative; width: 800px; height: 699px; margin-top: 40px; background: url("images/black_iphone.png") no-repeat center 14.5px; }
+.main_content { 
+  width: 800px; 
+  height: 699px;
+  position: relative;  margin-top: 40px; 
+  background: url("images/black_iphone.png") no-repeat scroll 120px center transparent;
+}
 .main_content img { position: absolute; right: 0px; top: 0px; }
-.main_content ul {list-style-type: none; margin: 0 0 10px; padding: 110px 0 0; width: 800px; z-index: -1;}
-.main_content ul li { width: 400px; float: left; font-size: 16px; color: #000000;}
-.left a {float: left;}
-.right a  {float: right;}
+.main_content ul {
+  margin-left: 470px;
+  list-style-type: none; padding: 50px 0 0; 
+}
+.main_content ul li { 
+  width: 220px; 
+  margin-bottom: 20px;
+  font-size: 16px; color: #000000;
+}
+
 .main_content ul li img {z-index: 1; opacity: 0;-webkit-transition: opacity .25s linear;-moz-transition: opacity .25s linear;-ms-transition: opacity .25s linear;transition: opacity .25s linear; }
 
-.main_content ul li.active img { display: block; opacity: 1;-webkit-transition: opacity .25s linear;-moz-transition: opacity .25s linear;-ms-transition: opacity .25s linear;transition: opacity .25s linear; }
+.main_content ul li.active img { 
+  display: block; opacity: 1;-webkit-transition: opacity .25s linear;
+  -moz-transition: opacity .25s linear;-ms-transition: opacity .25s linear;transition: opacity .25s linear; 
+}
 
-.main_content ul li a {opacity: .6;display: block; height: 200px;padding: 10px 0;text-decoration: none;width: 180px;border-top: 1px dotted #000000;text-shadow: 0px 1px 1px #fff; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;}
+.main_content ul li a {
+  opacity: .6;display: block; 
+/*  height: 200px;*/
+  padding: 10px 0;text-decoration: none;width: 220px;border-top: 1px dotted #000000;text-shadow: 0px 1px 1px #fff; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;
+}
 .main_content ul li a p { color: #000000; padding-bottom: 0px; line-height: 1.5em}
 .main_content ul li a:hover {opacity: 1; border-color:#000000; cursor: pointer;-webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;}
-.main_content ul li.active a, .main_content ul li.active a:hover {opacity: 1; border-color: #e99a21; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;}
-.main_content ul li img { position: absolute; right: 272px;
-    top: 106px;
-    }
+.main_content ul li.active a, .main_content ul li.active a:hover {
+  opacity: 1; border-color: #e99a21; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;
+}
+.main_content ul li img { 
+  position: absolute; right: 404px; top: 88px; 
+}
+
+.main_content ul li .white {
+  filter:alpha(opacity=70); /* IE */
+  -moz-opacity:0.7; /* Mozilla */
+  opacity: 0.7; /* CSS3 */
+  background-color: #fff;
+}
+
+.main_content h3 {color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

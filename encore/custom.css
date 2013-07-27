@@ -90,14 +90,6 @@ body {
 	line-height: 1.1;
 }
 
-.iphone {
-	bottom: -30px;
-	left:50%;
-	margin-left:-133px;
-	position: absolute;
-}
-
-
 .fullvideo {
 	position: fixed;
 	top: 80%
