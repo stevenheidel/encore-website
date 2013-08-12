@@ -1,7 +1,7 @@
 
 (function($) {
   $(document).ready(function() {  
-    $('.main_content ul li').click(function() { 
+    $('.main_content ul li').hover(function() { 
       if(!$(this).hasClass('active')) {
       var x = $(this).parent().find('.active'); 
       x.removeClass('active'); 
