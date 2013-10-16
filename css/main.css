@@ -7,8 +7,6 @@
 }
 
 .iphone-wrapper {
-  background: url('../img/sasquatch.jpg') center no-repeat;
-  background-position: top;
 }
 .iphone {
   text-align:center;
@@ -20,7 +18,7 @@
 .main_content { 
   width: 800px; 
   height: 699px;
-  position: relative;  margin-top: 40px; 
+  position: relative;  margin-top: 140px; 
   background: url("images/black_iphone.png") no-repeat scroll 120px center transparent;
 }
 .main_content img { position: absolute; right: 0px; top: 0px; }
@@ -44,7 +42,7 @@
 .main_content ul li a {
   opacity: .6;display: block; 
 /*  height: 200px;*/
-  padding: 10px 0;text-decoration: none;width: 220px;border-top: 1px dotted #000000;text-shadow: 0px 1px 1px #fff; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;
+  padding: 10px 0;text-decoration: none;width: 220px;text-shadow: 0px 1px 1px #fff; -webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;
 }
 .main_content ul li a p { color: #000000; padding-bottom: 0px;  line-height: 1.5em}
 .main_content ul li a:hover {opacity: 1; border-color:#000000; cursor: pointer;-webkit-transition: border-color .25s linear, opacity .25s linear;-moz-transition: border-color .25s linear, opacity .25s linear;-ms-transition: border-color .25s linear, opacity .25s linear;transition: border-color .25s linear, opacity .25s linear;}
