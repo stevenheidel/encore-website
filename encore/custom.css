@@ -1,9 +1,5 @@
 body {
-	background: url('../img/sasquatch4.jpg') center no-repeat;
-	-webkit-background-size: cover; /*Used by Safari & Chrome*/
-	-moz-background-size: cover; /* Used by Firefox */
-	-o-background-size: cover; /* Used by Opera */
-	background-size: cover; /* All Modern Browsers */
+	background-color: white;
 }
 
 
@@ -75,7 +71,7 @@ body {
 	padding-top: 40px;
 	padding-bottom: 50px;
 	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
-	color: black;
+	color: #67B2D0;
 	font-size: 15px;
 }
 
@@ -91,7 +87,7 @@ body {
 	padding-top: 0px;
 	padding-bottom: 10px;
 	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
-	color: black;
+	color: #67B2D0;
 	font-size: 30px;
 	line-height: 1.1;
 }
