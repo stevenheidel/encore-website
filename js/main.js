@@ -20,7 +20,6 @@
 
 
 
-
 jQuery(document).ready(function() {
   "use strict";
   
@@ -69,13 +68,13 @@ jQuery(document).ready(function() {
 
   /* Waypoints */
   
-  jQuery('.load-animate').waypoint({
-    triggerOnce: true,
-    offset: '70%',
-    handler: function() {
-      jQuery(this).addClass('animated fadeInUp');
-    }
-  });
+//  jQuery('.load-animate').waypoint({
+//    triggerOnce: true,
+//    offset: '70%',
+//    handler: function() {
+//      jQuery(this).addClass('animated fadeInUp');
+//    }
+//  });
   
   /* Newsletter Form */
 

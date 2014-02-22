@@ -1,109 +1,89 @@
 body {
 	background-color: white;
 }
-
-
-#video_background { 
-	width: 100%; 
-	height: auto; 
+#video_background {
+	width: 100%;
+	height: auto;
 	min-width: 100%;
 	z-index: -1000;
-	overflow: hidden; 
+	overflow: hidden;
 	poster: url("./images/poster.png");
 }
-
-#video_pattern { 
+#video_pattern {
 	position: absolute;
-	width: 100%; 
+	width: 100%;
 	height: auto;
-	min-width: 100%; 
-	z-index: 1; 
+	min-width: 100%;
+	z-index: 1;
 }
-
-
-#logo{
+#logo {
 	position: absolute;
 	z-index: 2;
 	left:41%;
 	margin-left:-158px;
 	margin-top: 20px;
 }
-
-
-#download1{
+#download1 {
 	position: absolute;
 	z-index: 3;
 	padding-left: 130px;
 	padding-top: 460px;
 }
-
 #download1 h6 {
 	text-align: left;
 	font-size:10px;
 	color: #ffffff;
 	padding-left:10px;
 }
-
 .download2 {
 	position: relative;
 	padding-top: 30px;
 }
-
-
-.explainer{
+.explainer {
 	position: absolute;
 	z-index: 4;
 	padding-left: 100px;
 	padding-top: 340px;
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	font-size-adjust:0.52;
-	font-weight:normal; 
+	font-weight:normal;
 	font-style:normal;
 	font-size: 20px;
 	line-height: 45px;
-	opacity: 0.5;
+	opacity: 1;
 }
-
-
-
 .middlearea {
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 50px;
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	color: #67B2D0;
 	font-size: 15px;
 }
-
 .middlearea {
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 50px;
 }
-
-
 .middleareatext h1 {
 	position: relative;
 	padding-top: 0px;
 	padding-bottom: 10px;
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	color: #67B2D0;
 	font-size: 30px;
 	line-height: 1.1;
 }
-
 .fullvideo {
 	position: fixed;
 	top: 80%
 }
-
 #encore-supercontainer {
 	background-color: white;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
-
 h1 {
 	font-family: 'Null Regular', 'Arial Black', Arial, Helvetica, Verdana, sans-serif;
 	text-transform: none;
@@ -111,152 +91,125 @@ h1 {
 	font-weight: normal;
 	font-style: normal;
 }
-
 #footer h1 {
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 }
-
 h2, h3, h4, p {
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	color: white;
 }
-
 h5, h6 {
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	color: black;
 	font-size: 15px;
 }
-
 .contact h6 {
 	font-size:12px;
 }
-
 .contact {
 	padding-top: 1px
 }
-
 .social {
 	padding-top: 30px
 }
-
-
 #encore-header h1 {
 	font-size: 80px;
 }
-
 #encore-header p {
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	font-size: 22px;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
 }
-
 .btn {
-	font-family:'Hero Regular', Helvetica, Arial, Verdana , sans-serif;
+	font-family:'Hero Regular', Helvetica, Arial, Verdana, sans-serif;
 	font-size-adjust:0.52;
-	font-weight:normal; 
+	font-weight:normal;
 	font-style:normal;
 	font-size: 20px;
 	line-height: 25px;
 }
-
 .btn-primary {
 	color: #ffffff;
 	background-image: linear-gradient(to bottom, #03B0E3, #03B0E3);
 	border-color: #03B0E3;
 }
-
 .btn-primary:hover {
 	background-color: #1DCCFF;
 	background-image: linear-gradient(to bottom, #1DCCFF, #1DCCFF);
 	background-image: -webkit-linear-gradient(top, #1DCCFF, #1DCCFF);
 }
-
 footer {
 	margin-top: 0;
 	padding-top: 30px;
 	background-color: #ffffff;
 }
-
-@media (max-width: 767px) {
-	#encore-container {
-		padding-bottom: 0px;
-		margin-bottom: -10px;
-	}
-	#encore-header {
-		margin-top: 30px;
-	}
+ @media (max-width: 767px) {
+ #encore-container {
+ padding-bottom: 0px;
+ margin-bottom: -10px;
 }
-
-@media (max-width: 1100px) {
-	
-	#download1 {
-		position: absolute;
-		z-index: 3;
-		padding-left: 130px;
-		padding-top: 400px;
-	}
-	.explainer{
-		padding-left: 100px;
-		padding-top: 290px;
-	}
-
+ #encore-header {
+ margin-top: 30px;
 }
-
-@media (max-width: 1000px) {
-	
-	#download1 {
-		position: absolute;
-		z-index: 3;
-		padding-left: 130px;
-		padding-top: 350px;
-	}
-	.explainer{
-		padding-left: 100px;
-		padding-top: 260px;
-	}
 }
-
-@media (max-width: 1000px) {
-	#download1 {
-		padding-left: 130px;
-		padding-top: 350px;
-	}
-
-	.explainer{
-		padding-left: 100px;
-		padding-top: 260px;
-	}
+ @media (max-width: 1100px) {
+ #download1 {
+ position: absolute;
+ z-index: 3;
+ padding-left: 130px;
+ padding-top: 400px;
 }
-
-
-@media (max-width: 900px) {
-	#download1 {
-		padding-left: 100px;
-		padding-top: 310px;
-	}
-
-	.explainer{
-		padding-left: 110px;
-		padding-top: 200px;
-	}
+ .explainer {
+ padding-left: 100px;
+ padding-top: 290px;
 }
-
-
-.flexslider.iphonetop { 
+}
+ @media (max-width: 1000px) {
+ #download1 {
+ position: absolute;
+ z-index: 3;
+ padding-left: 130px;
+ padding-top: 350px;
+}
+ .explainer {
+ padding-left: 100px;
+ padding-top: 260px;
+}
+}
+ @media (max-width: 1000px) {
+ #download1 {
+ padding-left: 130px;
+ padding-top: 350px;
+}
+ .explainer {
+ padding-left: 100px;
+ padding-top: 260px;
+}
+}
+ @media (max-width: 900px) {
+ #download1 {
+ padding-left: 100px;
+ padding-top: 310px;
+}
+ .explainer {
+ padding-left: 110px;
+ padding-top: 200px;
+}
+}
+.flexslider.iphonetop {
 	position: absolute;
-	background-image:url('../img/iphone5.png'); 
-	background-repeat: no-repeat; 
-	background-size: 284px 607px; 
+	background-image:url('../img/iphone5.png');
+	background-repeat: no-repeat;
+	background-size: 284px 607px;
 	width:239px;
-	height:540px; 
-	padding: 93px 32px 1px 23px; 
+	height:540px;
+	padding: 93px 32px 1px 23px;
 	left: 0;
 	right: 0;
 	bottom: -45px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .wf-loading body {
-    visibility: hidden;
+	visibility: hidden;
 }
